@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Position: absolute</title>
+        <style>
+            div {
+                width: 120px;
+                height: 100px;
+                border: 3px double black;
+                padding: 5px;
+                /*position: absolute;*/
+            }
+            div#first {
+                background-color: #c0dcc0; top: 40px; left: 40px; z-index: 2; float: right;
+            }
+            div#second {
+                background-color: #c0c0dc; top: 80px; left: 100px; z-index: 1; float: right;
+            }
+            div#third {
+                background-color: #7fff00; clear: both;
+            }
+            div#fourth {
+                background-color: #8a2be2; float: right;
+            }
+            div#fifth {
+                background-color: #0000ff; float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="first">1</div>
+        <div id="second">2</div>
+        <div id="third">3</div>
+        <div id="fourth">4</div>
+        <div id="fifth">5</div>
+    </body>
+</html>
