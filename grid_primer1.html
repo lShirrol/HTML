@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Grid primer 1</title>
+        <link rel="stylesheet" type="text/css" href="css/grid_primer1.css">
+    </head>
+    <body>
+        <div class="site">
+        <!--<a class="skip-link screen-reader-text" href="#content"> Перейти к
+        содержанию </a>-->
+            <header class="masthead">
+                <h2 class="site-title">Стандартная компоновка из двух колонок </h2>
+            </header>
+            <main id="content" class="main-content">
+                <h2> Основная область содержимого </h2>
+                <p> Основная область контента - это то, где происходит магия. Прямо
+                сейчас основное содержимое находится слева, а боковая панель - справа. Если
+                вы зайдете в разметку для этого документа и добавите <code>dir="rtl"</code> в
+                <code>html</code> элемент, два элемента поменяются местами пробелами,
+                потому что CSS Grid учитывает направление текста.</p>
+            </main>
+            <aside class="sidebar">
+                <h3>Сайдбар</h3>
+                <p> Боковая панель обычно содержит такие элементы, как:</p>
+                <ul>
+                    <li>Ссылки</li>
+                    <li>Меню</li>
+                    <li>Рекламу</li>
+                </ul>
+            </aside>
+            <aside class="twin">
+            Этот элемент должен занимать половину пространства </aside>
+            <aside class="twin">
+            Этот элемент должен занимать вторую половину пространства </aside>
+            <footer class="colophon grid">
+                <aside> Идея, дизайн: <a href="https://twitter.com/mor10"
+                target="_blank" rel="nofollow">Morten Rand-Hendriksen</a>.</aside>
+            </footer>
+        </div>
+   </body>
+</html>

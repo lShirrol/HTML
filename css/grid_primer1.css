@@ -1,0 +1,71 @@
+body
+{
+ color: #404040;
+ font-family: 'Helvetica', Arial, sans-serif;
+ font-size: 18px;
+ line-height: 1.5;
+ margin: 0;
+}
+/*-----------------------------------------------
+Общие стили
+-----------------------------------------------*/
+.site {
+ background: #ededed;
+ min-height: 100vh;
+}
+.masthead,
+.main-content,
+.sidebar,
+.twin,
+.footer {
+ padding: 1em 2em;
+}
+.main-content {
+ background: white;
+}
+.masthead {
+ background: #2185C5;
+ color: white;
+}
+.sidebar {
+ background: #FF7F66;
+}
+.twin {
+ background: #2185C5;
+}
+.twin:last-of-type {
+ background: #7ECEFD;
+}
+.colophon {
+ padding: 2em;
+ background: #3E454C;
+ color: white;
+}
+.colophon a {
+ color: white;
+}
+/*-----------------------------------------------
+Используем CSS-гриды:
+-----------------------------------------------*/
+ .site {
+ display: grid;
+ grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+ grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+ }
+ .masthead,
+ .colophon {
+ grid-column: span 8;
+ }
+ .main-content {
+ grid-column: 2/6;
+ }
+ .sidebar {
+ grid-column: 6/8;
+ }
+ .twin {
+ grid-column: 2/5;
+ grid-row: 3/4;
+ }
+ .twin:last-of-type {
+ grid-column: 5/8;
+ }
