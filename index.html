@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Главная страница</title>
-    </head>
-    <body>
-        <h2><a href="mypage.html">Моя страница</a></h2>
-        <h2><a href="text.html">Текст для создания внутристраничной навигации</a></h2>
-        <h2><a href="examples.html">Таблица</a></h2>
-        <h2><a href="float.html">Симантическая верстка</a></h2>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <style>
+      table,
+      td {
+        text-align: center;
+        border: 3px solid black;
+        border-collapse: collapse;
+        background-color: rgba(0, 0, 255, 0.08);
+      }
+      A:link,
+      A:visited {
+        color: black;
+        font-family: Verdana, sans-serif;
+        text-decoration: none;
+      }
+      td:hover {
+        background-color: blueviolet;
+      }
+      a:hover {
+        color: #de7300;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><a href="mypage.html">Моя страница</a></td>
+      </tr>
+      <tr>
+        <td>
+          <a href="text.html">Текст для создания внутристраничной навигации</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="examples.html">Таблица</a></td>
+      </tr>
+      <tr>
+        <td><a href="float.html">Симантическая верстка</a></td>
+      </tr>
+    </table>
+  </body>
 </html>
