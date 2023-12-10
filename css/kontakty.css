@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 2px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .email {
+    border: solid black;
+    border-radius: 10px;
+    max-width: 750px;
+    background-color: rgba(96, 96, 173, 0.689);
+    padding: 20px;
+  }
+
+  .person-data {
+    margin-bottom: 20px;
+  }
+
+  .masseger {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  textarea {
+    padding: 20px;
+  }
+  
+  .checkbox {
+         margin-bottom: 15px;  
+  }
+  input:required {
+    border: 2px solid red
+  }
+
+  input {
+    background-color: rgb(130, 255, 255);
+    padding-left: 20px;
+  }
