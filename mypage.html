@@ -4,25 +4,19 @@
         <meta charset="utf-8">
         <title>Моя Страничка</title>
         <style>
+            body {
+                background-color: rgb(208, 226, 241);
+            }
             table{width: 100%;}
-            td,th{border: 1px solid black;}
-            /* Картинку и текст помещаем в контейнер */
-        .container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-            /* Стили для текста */
-        .text-block {
-            position: absolute;
-            text-align: center;
-            bottom: 10px;
-            left: 16px;
-        }
+            td,th{border: 1px solid black;
+            }
+            td{
+                background-color: chartreuse;
+            }
         </style>
     </head>
     <body>
-        <h1>Привет! Это моя страничка</h1>
+        <h1 style="color: rgb(44, 44, 165);">Привет! Это моя страничка</h1>
         <hr>
         <h2>Мой город</h2>
         <p><em>Я живу в городе</em> <b>Котлас</b></p>
@@ -34,12 +28,7 @@
         <p><q>Мои друзья не учатся со мной в одной группе</q></p>
         <hr>
         <p><strong>-Оформление StudentART-</strong></p>
-        <div class="container">
         <img src="images/moon.jpeg" alt="Луна на ночном небе">
-        <div class="text-block">
-            Луна на ночном небе
-        </div>
-        </div>
         <p><a href="index.html">Главная страница</a></p>
         <p>&#169;</p>
         <table>
